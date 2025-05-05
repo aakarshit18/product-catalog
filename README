@@ -1,0 +1,26 @@
+
+Project Setup Instructions
+
+1. Clone the repository:
+
+   git clone <repository-url>
+
+2. Navigate into the project directory:
+
+   cd <i-pangram assignment - AAKARSHIT>
+
+3. Install project dependencies:
+
+   npm install
+
+4. Create a .env file in the root directory.
+
+   - or paste the give .env file in root directory
+
+5. Run the application:
+
+   npm start
+
+6. The server should be running on http://localhost:8080.
+
+7. Use given postman collection to test the apis 
