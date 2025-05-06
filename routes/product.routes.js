@@ -21,14 +21,10 @@ router.delete('/:id', verifyToken, isAdmin, productController.deleteProduct);
 
 // Public routes
 // Get Product
-router.get('/',verifyToken, productController.getProducts);
+router.get('/', verifyToken, productController.getProducts);
 
 // Reviews
 router.post('/:id/review', verifyToken, productController.addReview);
 router.get('/:id', verifyToken, productController.getProductWithReviews);
-
-// Recently Viewed 
-router.get('/recentlyViewed', verifyToken, productController.getRecentlyViewed);
-
 
 module.exports = router;
